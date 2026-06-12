@@ -1,0 +1,21 @@
+{
+  "name": "sorobanaid-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A deployable landing page for SorobanAid.",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "ci": "node scripts/ci-check.js",
+    "test": "npm run ci"
+  },
+  "keywords": [
+    "soroban",
+    "stellar",
+    "landing-page",
+    "static-site"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
