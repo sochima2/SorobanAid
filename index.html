@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="SorobanAid is a focused assistant landing page for teams building, auditing, and shipping Soroban smart contracts on Stellar."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <meta property="og:title" content="SorobanAid — Build Soroban Contracts with Confidence" />
+    <meta
+      property="og:description"
+      content="A polished product landing page for SorobanAid, built as a fast static site and ready for deployment."
+    />
+    <meta property="og:type" content="website" />
+    <title>SorobanAid — Build Soroban Contracts with Confidence</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="SorobanAid home">
+          <span class="brand-mark" aria-hidden="true">SA</span>
+          <span>SorobanAid</span>
+        </a>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#deploy">Deploy</a>
+          <a class="nav-cta" href="#contact">Get started</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">Stellar Soroban developer tooling</p>
+          <h1>Ship Soroban smart contracts with clarity, speed, and confidence.</h1>
+          <p class="hero-text">
+            SorobanAid gives your project a professional home for explaining the product,
+            guiding contributors, and converting builders into users. This static landing page
+            is lightweight, responsive, accessible, and deployment-ready.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#features">Explore features</a>
+            <a class="button button-secondary" href="#deploy">Deployment guide</a>
+          </div>
+          <dl class="metrics" aria-label="Project highlights">
+            <div>
+              <dt>100%</dt>
+              <dd>Static deployment</dd>
+            </div>
+            <div>
+              <dt>0</dt>
+              <dd>Runtime dependencies</dd>
+            </div>
+            <div>
+              <dt>CI</dt>
+              <dd>Quality checks included</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-card" aria-label="SorobanAid product preview">
+          <div class="card-toolbar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="terminal-line muted">$ sorobanaid analyze contract</div>
+          <div class="terminal-line success">✓ Validates project structure</div>
+          <div class="terminal-line success">✓ Highlights deployment checklist</div>
+          <div class="terminal-line success">✓ Prepares user-facing documentation</div>
+          <div class="insight-card">
+            <strong>Launch readiness</strong>
+            <p>Position your Soroban project with crisp messaging and a trustworthy developer experience.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section-shell section-block">
+        <div class="section-heading">
+          <p class="eyebrow">Why SorobanAid</p>
+          <h2>A polished foundation for your project launch.</h2>
+          <p>
+            The page focuses on trust signals, product clarity, and quick paths for users,
+            contributors, and deployers.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="icon" aria-hidden="true">✦</span>
+            <h3>Professional positioning</h3>
+            <p>Clear product messaging for teams exploring Stellar smart contract development.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon" aria-hidden="true">⚙</span>
+            <h3>CI-ready checks</h3>
+            <p>Built-in validation confirms the landing page, README, metadata, and scripts stay healthy.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon" aria-hidden="true">☄</span>
+            <h3>Fast static hosting</h3>
+            <p>No build step is required; deploy directly to GitHub Pages, Netlify, Vercel, or Cloudflare Pages.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon" aria-hidden="true">▣</span>
+            <h3>Responsive by default</h3>
+            <p>The layout adapts cleanly from desktop screens to mobile devices without extra configuration.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflow" class="section-shell section-block split-section">
+        <div>
+          <p class="eyebrow">Workflow</p>
+          <h2>From first impression to deployment in minutes.</h2>
+          <p>
+            SorobanAid's landing page is intentionally simple: edit the copy, run the CI check,
+            and publish the static files from the repository root.
+          </p>
+        </div>
+        <ol class="steps">
+          <li><strong>Customize</strong><span>Update product copy, contact links, and calls to action.</span></li>
+          <li><strong>Validate</strong><span>Run the repository CI script before every deploy.</span></li>
+          <li><strong>Publish</strong><span>Serve the root directory with any static hosting provider.</span></li>
+        </ol>
+      </section>
+
+      <section id="deploy" class="section-shell deploy-card">
+        <div>
+          <p class="eyebrow">Deploy-ready</p>
+          <h2>Static site. Clean docs. Reliable checks.</h2>
+          <p>
+            Start locally with <code>npm start</code>, validate with <code>npm run ci</code>,
+            and deploy the repository root as your production site.
+          </p>
+        </div>
+        <a class="button button-primary" href="https://github.com/stellar/soroban-docs" rel="noreferrer">Learn about Soroban</a>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="section-shell footer-content">
+        <div>
+          <a class="brand" href="#top" aria-label="SorobanAid home">
+            <span class="brand-mark" aria-hidden="true">SA</span>
+            <span>SorobanAid</span>
+          </a>
+          <p>Helping builders present, validate, and deploy Soroban-focused products.</p>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:hello@sorobanaid.dev">hello@sorobanaid.dev</a>
+          <a href="#features">Features</a>
+          <a href="#deploy">Deploy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
